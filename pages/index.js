@@ -47,6 +47,7 @@ export default function Home() {
                     src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
                     height={100}
                     width={300}
+                    alt='Google Logo'
                 />
                 <div className="flex w-full mt-5 hover:shadow-lg
                     focus-within:shadow-lg max-w-md
@@ -63,8 +64,8 @@ export default function Home() {
                 <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8
                     sm:space-y-0 sm:flex-row sm:space-x-4
                 ">
-                    <button onClick={search} className='btn'>Google Search</button>
-                    <button onClick={search} className='btn'>I'm Feeling Lucky</button>
+                    <button onClick={search} className="btn">Google Search</button>
+                    <button onClick={search} className="btn">I am Feeling Lucky</button>
                 </div>
             </form>
 
