@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Avatar({ url, className }) {
     return (
-        <Image
+        <img
             loading="lazy"
             src={url}
             alt="Profile Image"
